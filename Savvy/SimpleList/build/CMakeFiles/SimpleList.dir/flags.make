@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = 
+CXX_INCLUDES = -I/home/apostrophes/Code/Savvy/SimpleList/include
 
 CXX_FLAGS = 
 
