@@ -1,0 +1,3 @@
+/home/apostrophes/Code/Shell/build/CMakeFiles/Shell.dir
+/home/apostrophes/Code/Shell/build/CMakeFiles/edit_cache.dir
+/home/apostrophes/Code/Shell/build/CMakeFiles/rebuild_cache.dir
