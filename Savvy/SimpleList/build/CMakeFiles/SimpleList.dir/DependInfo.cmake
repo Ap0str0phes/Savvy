@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/apostrophes/Code/Savvy/SimpleList/list.cpp" "CMakeFiles/SimpleList.dir/list.cpp.o" "gcc" "CMakeFiles/SimpleList.dir/list.cpp.o.d"
   "/home/apostrophes/Code/Savvy/SimpleList/main.cpp" "CMakeFiles/SimpleList.dir/main.cpp.o" "gcc" "CMakeFiles/SimpleList.dir/main.cpp.o.d"
   )
 

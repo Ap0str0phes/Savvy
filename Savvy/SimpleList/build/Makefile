@@ -129,6 +129,30 @@ SimpleList/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SimpleList.dir/build.make CMakeFiles/SimpleList.dir/build
 .PHONY : SimpleList/fast
 
+list.o: list.cpp.o
+.PHONY : list.o
+
+# target to build an object file
+list.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SimpleList.dir/build.make CMakeFiles/SimpleList.dir/list.cpp.o
+.PHONY : list.cpp.o
+
+list.i: list.cpp.i
+.PHONY : list.i
+
+# target to preprocess a source file
+list.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SimpleList.dir/build.make CMakeFiles/SimpleList.dir/list.cpp.i
+.PHONY : list.cpp.i
+
+list.s: list.cpp.s
+.PHONY : list.s
+
+# target to generate assembly for a file
+list.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SimpleList.dir/build.make CMakeFiles/SimpleList.dir/list.cpp.s
+.PHONY : list.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -162,6 +186,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... SimpleList"
+	@echo "... list.o"
+	@echo "... list.i"
+	@echo "... list.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

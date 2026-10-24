@@ -81,12 +81,12 @@ clean: CMakeFiles/SimpleList.dir/clean
 CMakeFiles/SimpleList.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SimpleList.dir/build.make CMakeFiles/SimpleList.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SimpleList.dir/build.make CMakeFiles/SimpleList.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/apostrophes/Code/Savvy/SimpleList/build/CMakeFiles --progress-num=1,2 "Built target SimpleList"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/apostrophes/Code/Savvy/SimpleList/build/CMakeFiles --progress-num=1,2,3 "Built target SimpleList"
 .PHONY : CMakeFiles/SimpleList.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/SimpleList.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/apostrophes/Code/Savvy/SimpleList/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/apostrophes/Code/Savvy/SimpleList/build/CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/SimpleList.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/apostrophes/Code/Savvy/SimpleList/build/CMakeFiles 0
 .PHONY : CMakeFiles/SimpleList.dir/rule
