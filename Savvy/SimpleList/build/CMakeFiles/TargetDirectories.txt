@@ -1,3 +1,0 @@
-/home/apostrophes/Code/Savvy/SimpleList/build/CMakeFiles/SimpleList.dir
-/home/apostrophes/Code/Savvy/SimpleList/build/CMakeFiles/edit_cache.dir
-/home/apostrophes/Code/Savvy/SimpleList/build/CMakeFiles/rebuild_cache.dir

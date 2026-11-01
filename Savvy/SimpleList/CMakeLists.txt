@@ -2,6 +2,7 @@ cmake_minimum_required(VERSION 3.28)
 
 project(SimpleList)
 
-add_executable(SimpleList main.cpp list.cpp)
+add_executable(SimpleList main.cpp list.cpp database.cpp)
 
 target_include_directories(SimpleList PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/include)
+target_include_directories(SimpleList PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/db)

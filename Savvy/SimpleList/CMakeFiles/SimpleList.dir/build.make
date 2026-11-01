@@ -56,7 +56,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /home/apostrophes/Code/Savvy/SimpleList
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/apostrophes/Code/Savvy/SimpleList/build
+CMAKE_BINARY_DIR = /home/apostrophes/Code/Savvy/SimpleList
 
 # Include any dependencies generated for this target.
 include CMakeFiles/SimpleList.dir/depend.make
@@ -70,9 +70,9 @@ include CMakeFiles/SimpleList.dir/progress.make
 include CMakeFiles/SimpleList.dir/flags.make
 
 CMakeFiles/SimpleList.dir/main.cpp.o: CMakeFiles/SimpleList.dir/flags.make
-CMakeFiles/SimpleList.dir/main.cpp.o: /home/apostrophes/Code/Savvy/SimpleList/main.cpp
+CMakeFiles/SimpleList.dir/main.cpp.o: main.cpp
 CMakeFiles/SimpleList.dir/main.cpp.o: CMakeFiles/SimpleList.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/apostrophes/Code/Savvy/SimpleList/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/SimpleList.dir/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/apostrophes/Code/Savvy/SimpleList/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/SimpleList.dir/main.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SimpleList.dir/main.cpp.o -MF CMakeFiles/SimpleList.dir/main.cpp.o.d -o CMakeFiles/SimpleList.dir/main.cpp.o -c /home/apostrophes/Code/Savvy/SimpleList/main.cpp
 
 CMakeFiles/SimpleList.dir/main.cpp.i: cmake_force
@@ -84,9 +84,9 @@ CMakeFiles/SimpleList.dir/main.cpp.s: cmake_force
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/apostrophes/Code/Savvy/SimpleList/main.cpp -o CMakeFiles/SimpleList.dir/main.cpp.s
 
 CMakeFiles/SimpleList.dir/list.cpp.o: CMakeFiles/SimpleList.dir/flags.make
-CMakeFiles/SimpleList.dir/list.cpp.o: /home/apostrophes/Code/Savvy/SimpleList/list.cpp
+CMakeFiles/SimpleList.dir/list.cpp.o: list.cpp
 CMakeFiles/SimpleList.dir/list.cpp.o: CMakeFiles/SimpleList.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/apostrophes/Code/Savvy/SimpleList/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/SimpleList.dir/list.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/apostrophes/Code/Savvy/SimpleList/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/SimpleList.dir/list.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SimpleList.dir/list.cpp.o -MF CMakeFiles/SimpleList.dir/list.cpp.o.d -o CMakeFiles/SimpleList.dir/list.cpp.o -c /home/apostrophes/Code/Savvy/SimpleList/list.cpp
 
 CMakeFiles/SimpleList.dir/list.cpp.i: cmake_force
@@ -97,19 +97,35 @@ CMakeFiles/SimpleList.dir/list.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SimpleList.dir/list.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/apostrophes/Code/Savvy/SimpleList/list.cpp -o CMakeFiles/SimpleList.dir/list.cpp.s
 
+CMakeFiles/SimpleList.dir/database.cpp.o: CMakeFiles/SimpleList.dir/flags.make
+CMakeFiles/SimpleList.dir/database.cpp.o: database.cpp
+CMakeFiles/SimpleList.dir/database.cpp.o: CMakeFiles/SimpleList.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/apostrophes/Code/Savvy/SimpleList/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/SimpleList.dir/database.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SimpleList.dir/database.cpp.o -MF CMakeFiles/SimpleList.dir/database.cpp.o.d -o CMakeFiles/SimpleList.dir/database.cpp.o -c /home/apostrophes/Code/Savvy/SimpleList/database.cpp
+
+CMakeFiles/SimpleList.dir/database.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/SimpleList.dir/database.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/apostrophes/Code/Savvy/SimpleList/database.cpp > CMakeFiles/SimpleList.dir/database.cpp.i
+
+CMakeFiles/SimpleList.dir/database.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SimpleList.dir/database.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/apostrophes/Code/Savvy/SimpleList/database.cpp -o CMakeFiles/SimpleList.dir/database.cpp.s
+
 # Object files for target SimpleList
 SimpleList_OBJECTS = \
 "CMakeFiles/SimpleList.dir/main.cpp.o" \
-"CMakeFiles/SimpleList.dir/list.cpp.o"
+"CMakeFiles/SimpleList.dir/list.cpp.o" \
+"CMakeFiles/SimpleList.dir/database.cpp.o"
 
 # External object files for target SimpleList
 SimpleList_EXTERNAL_OBJECTS =
 
 SimpleList: CMakeFiles/SimpleList.dir/main.cpp.o
 SimpleList: CMakeFiles/SimpleList.dir/list.cpp.o
+SimpleList: CMakeFiles/SimpleList.dir/database.cpp.o
 SimpleList: CMakeFiles/SimpleList.dir/build.make
 SimpleList: CMakeFiles/SimpleList.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/apostrophes/Code/Savvy/SimpleList/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable SimpleList"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/apostrophes/Code/Savvy/SimpleList/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable SimpleList"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/SimpleList.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -121,6 +137,6 @@ CMakeFiles/SimpleList.dir/clean:
 .PHONY : CMakeFiles/SimpleList.dir/clean
 
 CMakeFiles/SimpleList.dir/depend:
-	cd /home/apostrophes/Code/Savvy/SimpleList/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/apostrophes/Code/Savvy/SimpleList /home/apostrophes/Code/Savvy/SimpleList /home/apostrophes/Code/Savvy/SimpleList/build /home/apostrophes/Code/Savvy/SimpleList/build /home/apostrophes/Code/Savvy/SimpleList/build/CMakeFiles/SimpleList.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/apostrophes/Code/Savvy/SimpleList && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/apostrophes/Code/Savvy/SimpleList /home/apostrophes/Code/Savvy/SimpleList /home/apostrophes/Code/Savvy/SimpleList /home/apostrophes/Code/Savvy/SimpleList /home/apostrophes/Code/Savvy/SimpleList/CMakeFiles/SimpleList.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/SimpleList.dir/depend
 

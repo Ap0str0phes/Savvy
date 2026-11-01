@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/SimpleList.dir/database.cpp.o"
+  "CMakeFiles/SimpleList.dir/database.cpp.o.d"
   "CMakeFiles/SimpleList.dir/list.cpp.o"
   "CMakeFiles/SimpleList.dir/list.cpp.o.d"
   "CMakeFiles/SimpleList.dir/main.cpp.o"

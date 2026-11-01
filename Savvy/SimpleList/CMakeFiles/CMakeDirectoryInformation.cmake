@@ -3,7 +3,7 @@
 
 # Relative path conversion top directories.
 set(CMAKE_RELATIVE_PATH_TOP_SOURCE "/home/apostrophes/Code/Savvy/SimpleList")
-set(CMAKE_RELATIVE_PATH_TOP_BINARY "/home/apostrophes/Code/Savvy/SimpleList/build")
+set(CMAKE_RELATIVE_PATH_TOP_BINARY "/home/apostrophes/Code/Savvy/SimpleList")
 
 # Force unix paths in dependencies.
 set(CMAKE_FORCE_UNIX_PATHS 1)
